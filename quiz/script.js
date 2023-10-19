@@ -12,13 +12,10 @@ let currentIndex = 0;
 let questionsCorrect = 0;
 
 btnRestart.onclick = () => {
-    // Limpe o conteúdo do elemento 'contentFinish'
     contentFinish.innerHTML = "";
 
-    // Remova a classe 'hidden' da imagem 'covid-questions'
     document.querySelector(".covid-questions").classList.remove("hidden");
 
-    // Remova a imagem de resultado anterior
     document.querySelector(".result-image").src = "";
 
     content.style.display = "flex";

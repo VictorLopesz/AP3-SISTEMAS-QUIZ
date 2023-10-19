@@ -110,26 +110,26 @@ button {
     font-weight: bold;
 }
 
-/* Adicione regras de mídia para telas menores */
+
 @media (max-width: 768px) {
     main {
-        width: 70%; /* Ajuste a largura para telas menores */
+        width: 70%;
     }
     .content {
-        gap: 5px; /* Reduza o espaço entre os elementos */
+        gap: 5px; 
     }
 }
 
-/* Adicione regras de mídia para telas muito pequenas (exemplo: smartphones em modo paisagem) */
+
 @media (max-width: 480px) {
     main {
-        width: 90%; /* Reduza ainda mais a largura para telas muito pequenas */
+        width: 90%; 
     }
     .content {
-        gap: 3px; /* Reduza o espaço entre os elementos */
+        gap: 3px; 
     }
     button {
-        font-size: 14px; /* Reduza o tamanho da fonte para telas menores */
+        font-size: 14px; 
     }
 }
 
